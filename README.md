@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:000000&height=200&section=header&text=ISLAM%20EDREES&fontColor=00FF00&fontSize=48&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00FF00,100:000000&height=220&section=header&text=ISLAM%20EDREES&fontColor=00FF00&fontSize=50&animation=twinkling&fontAlignY=38"/>
 </p>
 
-<h3 align="center">VoIP Manager | Asterisk | SIP | High-Scale Systems</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&size=24&center=true&vCenter=true&width=900&lines=VoIP+Traffic+Flow+%F0%9F%93%9E;SIP+%2F+RTP+Sessions+Active;Handling+50K%2B+Calls%2FDay;Real-Time+Monitoring+%26+Alerts;Asterisk+%26+Kamailio+Core">
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&size=24&center=true&vCenter=true&width=900&lines=Handling+50K%2B+Calls%2FDay;99.9%25+Uptime+Systems;SIP+%2F+RTP+Troubleshooting;Call+Center+Architecture;Monitoring+%26+Automation">
+  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="600"/>
 </p>
 
 ---
