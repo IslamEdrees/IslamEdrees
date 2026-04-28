@@ -12,21 +12,6 @@
 
 ---
 
-##  LIVE SYSTEM SNAPSHOT
-
-```bash
-$ voip-status --live
-
-Active Calls      : 1100 / 38 PRI
-Calls Today       : 51,284
-Latency           : 11 ms
-Packet Loss       : 0.1%
-
-Status            : ✔ STABLE
-```
-
----
-
 ##  REAL-TIME STATUS
 
 <p align="center">
