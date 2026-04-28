@@ -3,45 +3,42 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=00FFB3&size=26&center=true&vCenter=true&width=900&lines=VoIP+Engineer+%7C+Asterisk+%7C+SIP;Handling+50K%2B+Calls%2FDay;Real-Time+Monitoring+%26+Troubleshooting;Call+Center+Architecture;High+Availability+Systems">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00FFB3&size=26&center=true&vCenter=true&width=900&lines=VoIP+Systems+Engineer;Asterisk+%7C+Kamailio+%7C+SIP;Handling+50K%2B+Calls%2FDay;Monitoring+%26+High+Availability">
+</p>
+
+<p align="center">
+  <b>VoIP Systems Engineer focused on High-Scale Production, SIP Routing & Real-Time Monitoring</b>
 </p>
 
 ---
 
-## LIVE SYSTEM SNAPSHOT
+## 🧠 LIVE SYSTEM SNAPSHOT
 
 ```bash
 $ voip-status --live
 
-SIP Registrations : OK (2/2)
 Active Calls      : 148
 Calls Today       : 51,284
-System Load       : 32%
 Latency           : 11 ms
 Packet Loss       : 0.1%
-Alerts            : 0
 
-Routing Engine    : Kamailio (LB Active)
-Media Server      : Asterisk Cluster (Healthy)
-Monitoring        : Prometheus + Grafana (Running)
-
-Status            : ✔ ALL SYSTEMS OPERATIONAL
+Status            : ✔ STABLE
 ```
 
 ---
 
-##  REAL-TIME STATUS
+## ⚡ REAL-TIME STATUS
 
 <p align="center">
   <img src="https://img.shields.io/badge/SIP-ONLINE-00FFB3?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/RTP-STABLE-3B82F6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LATENCY-11ms-10B981?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LATENCY-LOW-10B981?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/ALERTS-0-111827?style=for-the-badge"/>
 </p>
 
 ---
 
-## SYSTEM ACTIVITY
+## 📊 SYSTEM ACTIVITY
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=IslamEdrees&theme=react-dark&bg_color=111827&color=00FFB3&line=00FFB3&point=3B82F6&area=true&hide_border=true"/>
@@ -49,7 +46,7 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 
 ---
 
-## SYSTEM ARCHITECTURE (Real Deployment)
+## 🏗️ SYSTEM ARCHITECTURE (Real Deployment)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png.png" width="900"/>
@@ -57,91 +54,66 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 
 ---
 
-## ⚙️ ARCHITECTURE BREAKDOWN
+## 🎯 WHY THIS DESIGN?
 
-```bash
-Inbound Calls:
-Telecom → PRI → SBC → Asterisk → Queue → Agents
-
-Inter-Site:
-Sites connected via VPN (WAN)
-
-Load Distribution:
-PRI 1 → 25%
-PRI 2 → 25%
-PRI 3 → 50%
-```
+- High availability across 3 sites
+- PRI load distribution (25% / 25% / 50%)
+- SBC handles NAT & security
+- Kamailio for SIP routing & failover
+- Asterisk cluster for media processing
 
 ---
 
-## 🚀 CORE SYSTEMS (Production)
+## 📊 REAL SYSTEM (PROOF)
 
-<table>
-<tr>
-<td width="50%">
+<p align="center">
+  <img src="ADD_YOUR_GRAFANA_OR_SNGREP_IMAGE_HERE" width="900"/>
+</p>
 
-### 📡 VoIP Monitoring Platform
+---
 
-```bash
-$ monitor --voip
-SIP Trunks   : ACTIVE
-RTP Streams  : MONITORED
-Alerts       : ENABLED
-```
+## 🚀 CORE SYSTEMS
 
-✔ Real-time SIP/RTP monitoring  
-✔ Automated alerting  
-
-💣 Impact:
-- ↓ Troubleshooting **70%**
+### 📡 Monitoring Platform
+- Real-time SIP/RTP metrics  
+- Alerting system  
+- ↓ Troubleshooting time **70%**
 
 👉 https://github.com/IslamEdrees/Asterisk-Monitoring-with-Prometheus-Grafana
 
-</td>
-
-<td width="50%">
+---
 
 ### 🔔 Alerting System
-
-```bash
-$ alert --system
-Event: SIP DOWN → Telegram
-```
-
-✔ Instant alerting  
-✔ Failure detection  
+- Instant Telegram alerts  
+- Failure detection  
 
 💣 Impact:
 - ↓ Response time **45%**
 
 👉 https://github.com/IslamEdrees/SwitchMonitoring-telegram
 
-</td>
-</tr>
-</table>
-
 ---
 
 ## 🔥 CASE STUDY — One-Way Audio
 
 ```bash
-Problem:
-Calls connected but no audio
+Issue:
+Call connected, no audio
 
-Root Cause:
-NAT + RTP misconfiguration
+Debug Flow:
+- SIP OK (200 OK received)
+- RTP missing one direction
+- tcpdump confirmed issue
 
 Fix:
 rtp_symmetric=yes
 rewrite_contact=yes
 direct_media=no
-```
 
-```bash
 Result:
 ✔ Audio restored
+✔ Stable RTP
 ✔ Issues reduced ~70%
-✔ Stable RTP flow
 ```
 
 ---
@@ -149,7 +121,7 @@ Result:
 ## 🛠️ TECH STACK
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,ansible,python,bash,git"/>
+  <img src="https://skillicons.dev/icons?i=linux,docker,python,bash,git"/>
 </p>
 
 <p align="center">
