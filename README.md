@@ -34,7 +34,7 @@
 ## SYSTEM ARCHITECTURE (Real Deployment)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png" width="900"/>
+  <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png.png" width="900"/>
 </p>
 
 ---
