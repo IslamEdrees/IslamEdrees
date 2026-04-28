@@ -1,171 +1,112 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:000000&height=140&section=header&text=Islam%20Edrees&fontColor=00FF00&fontSize=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:000000&height=160&section=header&text=Islam%20Edrees&fontColor=00FF00&fontSize=40&animation=fadeIn" />
 </p>
 
 <h3 align="center">VoIP Manager | Asterisk | SIP | Call Center Systems | DevOps</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&size=22&center=true&vCenter=true&width=700&lines=Building+High-Scale+VoIP+Systems;SIP+%2F+RTP+Troubleshooting;Asterisk+%26+Kamailio+Expert;Call+Center+Architecture;Monitoring+%26+Automation">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&size=22&center=true&vCenter=true&width=750&lines=High-Scale+VoIP+Systems;SIP+%2F+RTP+Troubleshooting;Asterisk+%26+Kamailio+Expert;Call+Center+Architecture;Monitoring+%26+Automation">
 </p>
 
 ---
 
-## 👾 whoami
+## 🧠 SYSTEM PROFILE
 
-```bash
+<p align="center">
+  <img src="https://img.shields.io/badge/ROLE-VoIP%20Manager-00FF00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/EXPERIENCE-8%2B%20Years-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SCALE-50K%2B%20Calls%2FDay-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UPTIME-99.9%25-success?style=for-the-badge" />
+</p>
+
+---
+
+## 📡 LIVE VoIP DASHBOARD (Preview)
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif" width="600"/>
+</p>
+
+---
+
+## 👾 TERMINAL IDENTITY
+
+```bash id="4yxu8x"
 $ cat /etc/islam.conf
 
 name:       Islam Edrees
 role:       VoIP Manager
-experience: 8+ years
 stack:      Asterisk, Kamailio, SIP, Linux
-focus:      High-Scale VoIP Systems, Monitoring, Automation
-systems:    Aheeva, SBC, PRI, SIP Trunks
-scale:      50,000+ calls/day
-uptime:     99.9%
+focus:      High-Scale VoIP Systems
 status:     ONLINE
 ```
 
 ---
 
-## 📡 VoIP Signal Flow
-
-```text
-        📞 SIP TRUNK
-             │
-             ▼
-        ┌──────────┐
-        │ Kamailio │  (Load Balancer)
-        └──────────┘
-             │
-             ▼
-        ┌──────────┐
-        │ Asterisk │  (Core PBX)
-        └──────────┘
-             │
-      ┌──────┴──────┐
-      ▼             ▼
-   Queue         IVR System
-      │
-      ▼
-   👨‍💼 Agent
-```
-
----
-
-## ☎️ SIP Debug Console
-
-```bash
-$ asterisk -rvvvvv
-
--- Executing [1000@from-trunk:1] Dial("SIP/provider-0000001", "SIP/agent1000")
--- RTP stream established
--- SIP/200 OK received
--- Call connected successfully
-```
-
----
-
-## 🚀 Key Achievements
-
-* 📉 Reduced VoIP troubleshooting time by **70%** using automated monitoring
-* 📡 Built VoIP infrastructure handling **50,000+ daily calls**
-* ⚙️ Achieved **99.9% uptime** across production systems
-* 💰 Reduced operational costs by **40%** via open-source migration
-* 🚀 Improved incident response time by **45%** using Telegram alerting
-
----
-
-## 🏗️ Core Projects
-
-### 📡 VoIP Monitoring Platform (Prometheus + Grafana)
-
-Production-grade monitoring for Asterisk & SIP infrastructure
-
-* Real-time call metrics & RTP monitoring
-* SIP trunk health tracking
-* Alerting & incident response
-  👉 https://github.com/IslamEdrees/Asterisk-Monitoring-with-Prometheus-Grafana
-
----
-
-### 🔔 VoIP Alerting System (Telegram Integration)
-
-Real-time alerting for VoIP & network components
-
-* SIP failure detection
-* Instant Telegram notifications
-  👉 https://github.com/IslamEdrees/SwitchMonitoring-telegram
-
----
-
-### 📊 SIP Trunk Monitoring System
-
-Track trunk performance, failures, and uptime
-
-* Performance metrics
-* Failure tracking
-  👉 https://github.com/IslamEdrees/Trunk-Monitoring-System
-
----
-
-### 🧠 SIP Guardian (Custom Monitoring Tool)
-
-Advanced RTP/SIP analysis
-
-* One-way audio detection
-* RTP stream monitoring
-* Automated diagnostics
-
----
-
-## 🛠️ Tech Stack
-
-**VoIP & Telecom**
-Asterisk / Kamailio / FreeSWITCH / SIP / RTP / PRI / SBC
-
-**Call Center Systems**
-Aheeva / VICIDial / Auto Dialers / IVR Design
-
-**Systems & DevOps**
-Linux / Docker / Kubernetes / Ansible / CI/CD
-
-**Monitoring & Observability**
-Prometheus / Grafana / Zabbix / Kibana
-
-**Scripting & Automation**
-Bash / Python / API Integration
-
-**Networking & Security**
-QoS / VPN / NAT Traversal / TLS / SRTP / iptables
-
----
-
-## 📊 GitHub Stats
+## ☎️ SIP FLOW (Architecture View)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IslamEdrees&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IslamEdrees&layout=compact&theme=tokyonight" />
+  <img src="https://raw.githubusercontent.com/ashishps1/awesome-readme/master/assets/flowchart.png" width="600"/>
 </p>
 
 ---
 
-## 📡 Contact
+## 🛠️ TECH STACK
 
-* 🌐 https://isonxperiences.com/
-* 💼 https://linkedin.com/in/islam-hassan-edres
-* 📧 [islamedres.hassan@gmail.com](mailto:islamedres.hassan@gmail.com)
-* 📞 +20 112 770 6450
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,ansible,python,bash" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Asterisk-VoIP-yellow?style=for-the-badge&logo=asterisk"/>
+  <img src="https://img.shields.io/badge/Kamailio-SIP-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Prometheus-Monitoring-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Grafana-Dashboard-red?style=for-the-badge"/>
+</p>
+
+---
+
+## 🚀 CORE PROJECTS
+
+### 📡 VoIP Monitoring Platform
+
+👉 https://github.com/IslamEdrees/Asterisk-Monitoring-with-Prometheus-Grafana
+
+### 🔔 Alerting System (Telegram)
+
+👉 https://github.com/IslamEdrees/SwitchMonitoring-telegram
+
+### 📊 SIP Trunk Monitoring
+
+👉 https://github.com/IslamEdrees/Trunk-Monitoring-System
 
 ---
 
-## ⚙️ Notes
+## 📊 SYSTEM METRICS
 
-* All projects are based on real-world production environments
-* Focus on scalability, stability, and automation
-* Continuous improvement of VoIP infrastructure and DevOps workflows
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=IslamEdrees&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=IslamEdrees&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
+
+## 📡 CONTACT
+
+<p align="center">
+  <a href="https://linkedin.com/in/islam-hassan-edres">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="mailto:islamedres.hassan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Send-red?style=for-the-badge"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00FF00&height=120&section=footer"/>
+</p>
