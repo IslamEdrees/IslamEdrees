@@ -1,11 +1,31 @@
 <h1 align="center">Islam Edrees</h1>
-<h3 align="center">VoIP Manager | Asterisk | SIP | Call Center Systems | DevOps</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&center=true&lines=VoIP+Manager;Asterisk+%26+Kamailio+Expert;SIP+Troubleshooting;Call+Center+Architecture;DevOps+%26+Automation">
+  <b>VoIP Manager</b> • Asterisk • SIP • Call Center Systems • DevOps
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&size=22&center=true&vCenter=true&width=700&lines=Building+High-Scale+VoIP+Systems;Asterisk+%26+Kamailio+Expert;SIP+Troubleshooting+%7C+RTP+Debugging;Call+Center+Architecture;Monitoring+%26+Automation+Specialist">
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Asterisk-VoIP-yellow?style=for-the-badge&logo=asterisk" />
+  <img src="https://img.shields.io/badge/SIP-RTP-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Linux-Admin-black?style=for-the-badge&logo=linux" />
+  <img src="https://img.shields.io/badge/Monitoring-Prometheus-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DevOps-Automation-green?style=for-the-badge" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IslamEdrees&theme=tokyonight" />
+</p>
+
+---
+
 
 ## 👨‍💻 About Me
 
