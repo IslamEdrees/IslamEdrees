@@ -27,7 +27,7 @@
 ---
 
 
-## 👨‍💻 About Me
+## About Me
 
 ```bash
 $ cat /etc/islam.conf
@@ -44,7 +44,7 @@ status:   "Designing stable and scalable voice infrastructures"
 
 ---
 
-## 🚀 Key Achievements
+## Key Achievements
 
 * 📉 Reduced VoIP troubleshooting time by **70%** using automated monitoring
 * 📡 Built VoIP infrastructure handling **50,000+ daily calls**
@@ -54,9 +54,9 @@ status:   "Designing stable and scalable voice infrastructures"
 
 ---
 
-## 🏗️ Core Projects
+## Core Projects
 
-### 📡 VoIP Monitoring Platform (Prometheus + Grafana)
+### VoIP Monitoring Platform (Prometheus + Grafana)
 
 Production-grade monitoring system for Asterisk & SIP infrastructure
 
@@ -68,7 +68,7 @@ Production-grade monitoring system for Asterisk & SIP infrastructure
 
 ---
 
-### 🔔 VoIP Alerting System (Telegram Integration)
+###  VoIP Alerting System (Telegram Integration)
 
 Real-time alerting for VoIP & network components
 
@@ -80,7 +80,7 @@ Real-time alerting for VoIP & network components
 
 ---
 
-### 📊 SIP Trunk Monitoring System
+### SIP Trunk Monitoring System
 
 Track trunk performance, failures, and uptime
 
@@ -92,7 +92,7 @@ Track trunk performance, failures, and uptime
 
 ---
 
-### 🧠 SIP Guardian (Custom Monitoring Tool)
+###  SIP Guardian (Custom Monitoring Tool)
 
 Advanced RTP/SIP analysis tool
 
@@ -140,7 +140,7 @@ QoS / VPN / NAT Traversal / TLS / SRTP / iptables
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=IslamEdrees&show_icons=true&theme=tokyonight" />
@@ -152,7 +152,7 @@ QoS / VPN / NAT Traversal / TLS / SRTP / iptables
 
 ---
 
-## 📡 Contact
+##  Contact
 
 * 
 * 💼 https://linkedin.com/in/islam-hassan-edres
