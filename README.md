@@ -49,26 +49,55 @@ Status            : ✔ STABLE
 ## 🏗️ SYSTEM ARCHITECTURE (Real Deployment)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png.png" width="900"/>
+  <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png" width="900"/>
 </p>
 
 ---
 
 ## 🎯 WHY THIS DESIGN?
 
-- High availability across 3 sites
-- PRI load distribution (25% / 25% / 50%)
-- SBC handles NAT & security
-- Kamailio for SIP routing & failover
-- Asterisk cluster for media processing
+- High availability across 3 sites  
+- PRI load distribution (25% / 25% / 50%)  
+- SBC handles NAT & security  
+- Kamailio for SIP routing & failover  
+- Asterisk cluster for media processing  
 
 ---
 
-## 📊 REAL SYSTEM (PROOF)
+## 📊 REAL-TIME VOIP MONITORING (Production Proof)
+
+### 📡 Grafana — Live Call Metrics
 
 <p align="center">
-  <img src="ADD_YOUR_GRAFANA_OR_SNGREP_IMAGE_HERE" width="900"/>
+  <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/grafana.png" width="900"/>
 </p>
+
+```bash
+Metrics Observed:
+- Active Calls per Asterisk Node
+- Call Distribution Across Servers
+- Real-Time Load Monitoring
+
+Stack:
+Prometheus + Asterisk Exporter + Grafana
+```
+
+---
+
+### ☎️ VoIP Troubleshooting Tool (Custom CLI)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/voip-tool.png" width="700"/>
+</p>
+
+```bash
+Capabilities:
+- SIP Status Check
+- RTP Debugging
+- Codec Validation
+- Latency Monitoring
+- Firewall Validation
+```
 
 ---
 
@@ -142,53 +171,7 @@ Result:
     <img src="https://img.shields.io/badge/Email-Contact-10B981?style=for-the-badge"/>
   </a>
 </p>
----
 
-## 📊 REAL-TIME VOIP MONITORING (Production Proof)
-
-### 📡 Grafana — Live Call Metrics
-
-<p align="center">
-  <img src="PUT_GRAFANA_IMAGE_LINK_HERE" width="900"/>
-</p>
-
-```bash
-Metrics Observed:
-- Active Calls per Asterisk Node
-- Call Distribution Across Servers
-- Real-Time Load Monitoring
-
-Stack:
-Prometheus + Asterisk Exporter + Grafana
-```
-
----
-
-### ☎️ VoIP Troubleshooting Tool (Custom CLI)
-
-<p align="center">
-  <img src="PUT_TOOL_IMAGE_LINK_HERE" width="700"/>
-</p>
-
-```bash
-Capabilities:
-- SIP Status Check
-- RTP Debugging
-- Codec Validation
-- Latency Monitoring
-- Firewall Validation
-```
-
----
-
-## 🎯 WHY THIS MATTERS
-
-- Real production monitoring (not demo)
-- Full visibility on SIP + RTP layers
-- Faster troubleshooting & incident response
-- Built for high-scale environments (50K+ calls/day)
-
----
 ---
 
 <p align="center">
