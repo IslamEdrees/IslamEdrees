@@ -142,7 +142,53 @@ Result:
     <img src="https://img.shields.io/badge/Email-Contact-10B981?style=for-the-badge"/>
   </a>
 </p>
+---
 
+## 📊 REAL-TIME VOIP MONITORING (Production Proof)
+
+### 📡 Grafana — Live Call Metrics
+
+<p align="center">
+  <img src="PUT_GRAFANA_IMAGE_LINK_HERE" width="900"/>
+</p>
+
+```bash
+Metrics Observed:
+- Active Calls per Asterisk Node
+- Call Distribution Across Servers
+- Real-Time Load Monitoring
+
+Stack:
+Prometheus + Asterisk Exporter + Grafana
+```
+
+---
+
+### ☎️ VoIP Troubleshooting Tool (Custom CLI)
+
+<p align="center">
+  <img src="PUT_TOOL_IMAGE_LINK_HERE" width="700"/>
+</p>
+
+```bash
+Capabilities:
+- SIP Status Check
+- RTP Debugging
+- Codec Validation
+- Latency Monitoring
+- Firewall Validation
+```
+
+---
+
+## 🎯 WHY THIS MATTERS
+
+- Real production monitoring (not demo)
+- Full visibility on SIP + RTP layers
+- Faster troubleshooting & incident response
+- Built for high-scale environments (50K+ calls/day)
+
+---
 ---
 
 <p align="center">
