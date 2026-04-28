@@ -8,7 +8,7 @@
 
 ---
 
-## 🧠 LIVE SYSTEM SNAPSHOT
+## LIVE SYSTEM SNAPSHOT
 
 ```bash
 $ voip-status --live
@@ -30,7 +30,7 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 
 ---
 
-## ⚡ REAL-TIME STATUS
+##  REAL-TIME STATUS
 
 <p align="center">
   <img src="https://img.shields.io/badge/SIP-ONLINE-00FFB3?style=for-the-badge"/>
@@ -41,7 +41,7 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 
 ---
 
-## 📊 SYSTEM ACTIVITY
+## SYSTEM ACTIVITY
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=IslamEdrees&theme=react-dark&bg_color=111827&color=00FFB3&line=00FFB3&point=3B82F6&area=true&hide_border=true"/>
@@ -49,7 +49,7 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 
 ---
 
-## 🏗️ SYSTEM ARCHITECTURE (Real Deployment)
+## SYSTEM ARCHITECTURE (Real Deployment)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png" width="900"/>
