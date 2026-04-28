@@ -123,7 +123,7 @@ Capabilities:
 
 ---
 
-## 🧠 CASE STUDY — Smart Call Routing Automation
+## CASE STUDY — Smart Call Routing Automation
 
 ```bash
 Challenge:
@@ -145,7 +145,7 @@ and missed opportunities across multiple branches.
 
 ---
 
-## 📡 SYSTEM BEHAVIOR
+##  SYSTEM BEHAVIOR
 
 ```text
 1st Call  → Agent → Data Capture
@@ -155,7 +155,7 @@ No Answer → Manager Mobile
 
 ---
 
-## 📊 IMPACT
+##  IMPACT
 
 ```bash
 ✔ Reduced handling time (no repeated questions)
@@ -167,14 +167,14 @@ No Answer → Manager Mobile
 
 ---
 
-## 💣 RESULT
+##  RESULT
 
 ```bash
 ✔ Fully automated call lifecycle
 ✔ Location-based intelligent routing
 ✔ Production-ready multi-branch solution
 ```
-## 🛠️ TECH STACK
+##  TECH STACK
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,docker,python,bash,git"/>
