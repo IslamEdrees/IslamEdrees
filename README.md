@@ -49,6 +49,31 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 
 ---
 
+## 🏗️ SYSTEM ARCHITECTURE (Real Deployment)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png" width="900"/>
+</p>
+
+---
+
+## ⚙️ ARCHITECTURE BREAKDOWN
+
+```bash
+Inbound Calls:
+Telecom → PRI → SBC → Asterisk → Queue → Agents
+
+Inter-Site:
+Sites connected via VPN (WAN)
+
+Load Distribution:
+PRI 1 → 25%
+PRI 2 → 25%
+PRI 3 → 50%
+```
+
+---
+
 ## 🚀 CORE SYSTEMS (Production)
 
 <table>
@@ -57,25 +82,18 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 
 ### 📡 VoIP Monitoring Platform
 
-<p>
-  <img src="https://img.shields.io/badge/Prometheus-00FFB3?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Grafana-3B82F6?style=flat-square"/>
-</p>
-
 ```bash
 $ monitor --voip
-
 SIP Trunks   : ACTIVE
 RTP Streams  : MONITORED
 Alerts       : ENABLED
 ```
 
 ✔ Real-time SIP/RTP monitoring  
-✔ Automated alerting system  
+✔ Automated alerting  
 
 💣 Impact:
-- ↓ Troubleshooting time **70%**
-- 500+ issues resolved monthly
+- ↓ Troubleshooting **70%**
 
 👉 https://github.com/IslamEdrees/Asterisk-Monitoring-with-Prometheus-Grafana
 
@@ -83,89 +101,48 @@ Alerts       : ENABLED
 
 <td width="50%">
 
-### 🔔 VoIP Alerting System
-
-<p>
-  <img src="https://img.shields.io/badge/Telegram-Alerts-3B82F6?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Automation-Active-00FFB3?style=flat-square"/>
-</p>
+### 🔔 Alerting System
 
 ```bash
 $ alert --system
-
-Event: SIP DOWN
-Notify: Telegram Bot
-Response: Instant
+Event: SIP DOWN → Telegram
 ```
 
-✔ Real-time failure detection  
-✔ Instant alert delivery  
+✔ Instant alerting  
+✔ Failure detection  
 
 💣 Impact:
-- ↓ Incident response **45%**
-- Faster outage recovery
+- ↓ Response time **45%**
 
 👉 https://github.com/IslamEdrees/SwitchMonitoring-telegram
 
 </td>
 </tr>
-
-<tr>
-<td width="50%">
-
-### 📊 SIP Trunk Monitoring
-
-<p>
-  <img src="https://img.shields.io/badge/SIP-Tracking-00FFB3?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Uptime-Analysis-3B82F6?style=flat-square"/>
-</p>
-
-```bash
-$ trunk-status
-
-Provider A : OK
-Provider B : DEGRADED
-Failover   : READY
-```
-
-✔ Track trunk performance  
-✔ Detect failures early  
-
-💣 Impact:
-- Improved uptime stability  
-- Reduced downtime risk  
-
-👉 https://github.com/IslamEdrees/Trunk-Monitoring-System
-
-</td>
-
-<td width="50%">
-
-### 🧠 SIP Guardian (Advanced Tool)
-
-<p>
-  <img src="https://img.shields.io/badge/RTP-Analysis-00FFB3?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Diagnostics-Active-3B82F6?style=flat-square"/>
-</p>
-
-```bash
-$ sip-guardian
-
-Scan RTP...
-Detect Issue: ONE-WAY AUDIO
-Fix Suggestion: NAT / Symmetric RTP
-```
-
-✔ RTP stream analysis  
-✔ One-way audio detection  
-
-💣 Impact:
-- ↓ Audio issues **70%**
-- Faster root-cause detection
-
-</td>
-</tr>
 </table>
+
+---
+
+## 🔥 CASE STUDY — One-Way Audio
+
+```bash
+Problem:
+Calls connected but no audio
+
+Root Cause:
+NAT + RTP misconfiguration
+
+Fix:
+rtp_symmetric=yes
+rewrite_contact=yes
+direct_media=no
+```
+
+```bash
+Result:
+✔ Audio restored
+✔ Issues reduced ~70%
+✔ Stable RTP flow
+```
 
 ---
 
@@ -175,162 +152,14 @@ Fix Suggestion: NAT / Symmetric RTP
   <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,ansible,python,bash,git"/>
 </p>
 
----
-
-## 📡 VOIP & TELECOM
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Asterisk-Core-00FFB3?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Asterisk-VoIP-00FFB3?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Kamailio-LB-3B82F6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/SIP-RTP-111827?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/PRI-ISDN-10B981?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SBC-Integration-00FFB3?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🧠 MONITORING & OBSERVABILITY
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Prometheus-Metrics-00FFB3?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Grafana-Dashboards-3B82F6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Zabbix-Alerts-10B981?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Kibana-Logs-111827?style=for-the-badge"/>
-</p>
-
----
-
-## ⚙️ AUTOMATION & DEVOPS
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Bash-Automation-00FFB3?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Python-Scripting-3B82F6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/CI/CD-Pipelines-10B981?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Ansible-Config-111827?style=for-the-badge"/>
-</p>
-
----
-
-## 🌐 NETWORKING & SECURITY
-
-<p align="center">
-  <img src="https://img.shields.io/badge/QoS-Optimization-00FFB3?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/NAT-Traversal-3B82F6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/TLS-SRTP-10B981?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/IPTables-Firewall-111827?style=for-the-badge"/>
-</p>
-
----
----
-
-## 🔥 CASE STUDY — One-Way Audio (Production Incident)
-
-```bash
-Incident ID   : VOIP-2026-041
-Environment   : Asterisk + Kamailio + SIP Trunk
-Traffic       : ~50K Calls/Day
-Impact        : Calls connected but no audio (one-way)
-Severity      : HIGH
-```
-
----
-
-## 📡 SYMPTOMS
-
-- Call established (SIP 200 OK received)
-- No RTP audio from one side
-- Issue intermittent across multiple agents
-- Affects external SIP calls only
-
----
-
-## 🔍 INVESTIGATION
-
-```bash
-# Check SIP signaling
-asterisk -rvvvvv
-sip set debug on
-
-# Check RTP flow
-rtp set debug on
-
-# Packet capture
-tcpdump -i eth0 udp port 10000-20000 -n
-
-# NAT check
-pjsip show endpoint <endpoint>
-```
-
-Findings:
-- RTP packets sent but not received correctly
-- Incorrect Contact / SDP IP due to NAT
-- Media path bypassing NAT handling
-
----
-
-## ⚙️ ROOT CAUSE
-
-```bash
-NAT Misconfiguration
-
-- rtp_symmetric      : disabled
-- rewrite_contact    : disabled
-- direct_media       : enabled
-```
-
-➡ Result:
-- RTP routed to wrong IP
-- One-way audio
-
----
-
-## 🛠️ FIX IMPLEMENTED
-
-```bash
-# pjsip.conf
-
-rtp_symmetric=yes
-rewrite_contact=yes
-force_rport=yes
-direct_media=no
-```
-
-Additional:
-- Verified firewall RTP range
-- Restarted affected endpoints
-- Validated via live calls
-
----
-
-## 📊 RESULT
-
-```bash
-Audio Restored      : ✔
-Call Stability      : ✔ Improved
-Issue Reduction     : ~70%
-Packet Loss         : Normalized
-User Complaints     : Dropped to near zero
-```
-
----
-
-## 🧠 LESSONS LEARNED
-
-- Always align SIP + RTP paths under NAT
-- Avoid direct_media in NAT environments
-- Monitor RTP flow, not just SIP signaling
-- Use tcpdump + RTP debug for validation
-
----
-
-## 🚀 BUSINESS IMPACT
-
-- Prevented major call center disruption
-- Improved customer experience
-- Reduced support tickets significantly
-- Strengthened monitoring & alerting strategy
-
----
 ## 📡 CONTACT
 
 <p align="center">
