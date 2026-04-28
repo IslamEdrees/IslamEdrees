@@ -12,12 +12,12 @@
 
 ---
 
-## 🧠 LIVE SYSTEM SNAPSHOT
+##  LIVE SYSTEM SNAPSHOT
 
 ```bash
 $ voip-status --live
 
-Active Calls      : 148
+Active Calls      : 1100 / 38 PRI
 Calls Today       : 51,284
 Latency           : 11 ms
 Packet Loss       : 0.1%
@@ -27,7 +27,7 @@ Status            : ✔ STABLE
 
 ---
 
-## ⚡ REAL-TIME STATUS
+##  REAL-TIME STATUS
 
 <p align="center">
   <img src="https://img.shields.io/badge/SIP-ONLINE-00FFB3?style=for-the-badge"/>
@@ -38,7 +38,7 @@ Status            : ✔ STABLE
 
 ---
 
-## 📊 SYSTEM ACTIVITY
+## SYSTEM ACTIVITY
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=IslamEdrees&theme=react-dark&bg_color=111827&color=00FFB3&line=00FFB3&point=3B82F6&area=true&hide_border=true"/>
@@ -46,7 +46,7 @@ Status            : ✔ STABLE
 
 ---
 
-## 🏗️ SYSTEM ARCHITECTURE (Real Deployment)
+## SYSTEM ARCHITECTURE (Real Deployment)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/architecture.png" width="900"/>
@@ -54,7 +54,7 @@ Status            : ✔ STABLE
 
 ---
 
-## 🎯 WHY THIS DESIGN?
+##  WHY THIS DESIGN?
 
 - High availability across 3 sites  
 - PRI load distribution (25% / 25% / 50%)  
@@ -64,9 +64,9 @@ Status            : ✔ STABLE
 
 ---
 
-## 📊 REAL-TIME VOIP MONITORING (Production Proof)
+##  REAL-TIME VOIP MONITORING (Production Proof)
 
-### 📡 Grafana — Live Call Metrics
+###  Grafana — Live Call Metrics
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/grafana.png" width="900"/>
@@ -84,7 +84,7 @@ Prometheus + Asterisk Exporter + Grafana
 
 ---
 
-### ☎️ VoIP Troubleshooting Tool (Custom CLI)
+###  VoIP Troubleshooting Tool (Custom CLI)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/IslamEdrees/IslamEdrees/main/voip-tool.png" width="700"/>
@@ -101,9 +101,9 @@ Capabilities:
 
 ---
 
-## 🚀 CORE SYSTEMS
+##  CORE SYSTEMS
 
-### 📡 Monitoring Platform
+###  Monitoring Platform
 - Real-time SIP/RTP metrics  
 - Alerting system  
 - ↓ Troubleshooting time **70%**
@@ -112,41 +112,68 @@ Capabilities:
 
 ---
 
-### 🔔 Alerting System
+###  Alerting System
 - Instant Telegram alerts  
 - Failure detection  
 
-💣 Impact:
+ Impact:
 - ↓ Response time **45%**
 
 👉 https://github.com/IslamEdrees/SwitchMonitoring-telegram
 
 ---
 
-## 🔥 CASE STUDY — One-Way Audio
+## 🧠 CASE STUDY — Smart Call Routing Automation
 
 ```bash
-Issue:
-Call connected, no audio
-
-Debug Flow:
-- SIP OK (200 OK received)
-- RTP missing one direction
-- tcpdump confirmed issue
-
-Fix:
-rtp_symmetric=yes
-rewrite_contact=yes
-direct_media=no
-
-Result:
-✔ Audio restored
-✔ Stable RTP
-✔ Issues reduced ~70%
+Challenge:
+Manual call handling caused delays, repeated customer questions,
+and missed opportunities across multiple branches.
 ```
 
 ---
 
+## ⚙️ SOLUTION
+
+```bash
+✔ First Call → Routed to Call Center Agent
+✔ Customer Data → Captured via CRM Pop-Up
+✔ Returning Calls → Auto-detected via Caller ID
+✔ Smart Routing → Directed to nearest branch
+✔ No Answer → Escalated to branch manager mobile
+```
+
+---
+
+## 📡 SYSTEM BEHAVIOR
+
+```text
+1st Call  → Agent → Data Capture
+2nd Call  → Auto Route → Branch Queue
+No Answer → Manager Mobile
+```
+
+---
+
+## 📊 IMPACT
+
+```bash
+✔ Reduced handling time (no repeated questions)
+✔ Improved call distribution across branches
+✔ Minimized missed calls via escalation logic
+✔ Enhanced customer experience
+✔ Full reporting visibility (calls, branches, performance)
+```
+
+---
+
+## 💣 RESULT
+
+```bash
+✔ Fully automated call lifecycle
+✔ Location-based intelligent routing
+✔ Production-ready multi-branch solution
+```
 ## 🛠️ TECH STACK
 
 <p align="center">
