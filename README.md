@@ -33,7 +33,9 @@ asterisk -rvvvvv
 ```
 
 ---
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IslamEdrees&theme=react-dark&bg_color=000000&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true"/>
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/SIP-ONLINE-00FF00?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/RTP-STABLE-green?style=for-the-badge"/>
