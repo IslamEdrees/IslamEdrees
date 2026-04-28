@@ -48,7 +48,6 @@ Status            : ✔ ALL SYSTEMS OPERATIONAL
 </p>
 
 ---
----
 
 ## 🚀 CORE SYSTEMS (Production)
 
@@ -169,10 +168,6 @@ Fix Suggestion: NAT / Symmetric RTP
 </table>
 
 ---
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:00FFB3&height=150&section=footer"/>
-</p>
----
 
 ## 🛠️ TECH STACK
 
@@ -226,3 +221,135 @@ Fix Suggestion: NAT / Symmetric RTP
 </p>
 
 ---
+---
+
+## 🔥 CASE STUDY — One-Way Audio (Production Incident)
+
+```bash
+Incident ID   : VOIP-2026-041
+Environment   : Asterisk + Kamailio + SIP Trunk
+Traffic       : ~50K Calls/Day
+Impact        : Calls connected but no audio (one-way)
+Severity      : HIGH
+```
+
+---
+
+## 📡 SYMPTOMS
+
+- Call established (SIP 200 OK received)
+- No RTP audio from one side
+- Issue intermittent across multiple agents
+- Affects external SIP calls only
+
+---
+
+## 🔍 INVESTIGATION
+
+```bash
+# Check SIP signaling
+asterisk -rvvvvv
+sip set debug on
+
+# Check RTP flow
+rtp set debug on
+
+# Packet capture
+tcpdump -i eth0 udp port 10000-20000 -n
+
+# NAT check
+pjsip show endpoint <endpoint>
+```
+
+Findings:
+- RTP packets sent but not received correctly
+- Incorrect Contact / SDP IP due to NAT
+- Media path bypassing NAT handling
+
+---
+
+## ⚙️ ROOT CAUSE
+
+```bash
+NAT Misconfiguration
+
+- rtp_symmetric      : disabled
+- rewrite_contact    : disabled
+- direct_media       : enabled
+```
+
+➡ Result:
+- RTP routed to wrong IP
+- One-way audio
+
+---
+
+## 🛠️ FIX IMPLEMENTED
+
+```bash
+# pjsip.conf
+
+rtp_symmetric=yes
+rewrite_contact=yes
+force_rport=yes
+direct_media=no
+```
+
+Additional:
+- Verified firewall RTP range
+- Restarted affected endpoints
+- Validated via live calls
+
+---
+
+## 📊 RESULT
+
+```bash
+Audio Restored      : ✔
+Call Stability      : ✔ Improved
+Issue Reduction     : ~70%
+Packet Loss         : Normalized
+User Complaints     : Dropped to near zero
+```
+
+---
+
+## 🧠 LESSONS LEARNED
+
+- Always align SIP + RTP paths under NAT
+- Avoid direct_media in NAT environments
+- Monitor RTP flow, not just SIP signaling
+- Use tcpdump + RTP debug for validation
+
+---
+
+## 🚀 BUSINESS IMPACT
+
+- Prevented major call center disruption
+- Improved customer experience
+- Reduced support tickets significantly
+- Strengthened monitoring & alerting strategy
+
+---
+## 📡 CONTACT
+
+<p align="center">
+  <a href="https://linkedin.com/in/islam-hassan-edres">
+    <img src="https://img.shields.io/badge/LinkedIn-Hire%20Me-3B82F6?style=for-the-badge"/>
+  </a>
+  <a href="mailto:islamedres.hassan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-10B981?style=for-the-badge"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <b>Available for VoIP / Asterisk / SIP Engineering Roles</b>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:00FFB3&height=150&section=footer"/>
+</p>
