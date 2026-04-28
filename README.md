@@ -1,100 +1,117 @@
-<h1 align="center">Islam Edrees</h1>
-
 <p align="center">
-  <b>VoIP Manager</b> • Asterisk • SIP • Call Center Systems • DevOps
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:000000&height=140&section=header&text=Islam%20Edrees&fontColor=00FF00&fontSize=35" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&size=22&center=true&vCenter=true&width=700&lines=Building+High-Scale+VoIP+Systems;Asterisk+%26+Kamailio+Expert;SIP+Troubleshooting+%7C+RTP+Debugging;Call+Center+Architecture;Monitoring+%26+Automation+Specialist">
-</p>
-
----
+<h3 align="center">VoIP Manager | Asterisk | SIP | Call Center Systems | DevOps</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Asterisk-VoIP-yellow?style=for-the-badge&logo=asterisk" />
-  <img src="https://img.shields.io/badge/SIP-RTP-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Linux-Admin-black?style=for-the-badge&logo=linux" />
-  <img src="https://img.shields.io/badge/Monitoring-Prometheus-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DevOps-Automation-green?style=for-the-badge" />
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00FF00&size=22&center=true&vCenter=true&width=700&lines=Building+High-Scale+VoIP+Systems;SIP+%2F+RTP+Troubleshooting;Asterisk+%26+Kamailio+Expert;Call+Center+Architecture;Monitoring+%26+Automation">
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IslamEdrees&theme=tokyonight" />
-</p>
-
----
-
-
-## About Me
+## 👾 whoami
 
 ```bash
 $ cat /etc/islam.conf
 
-role:     VoIP Manager
+name:       Islam Edrees
+role:       VoIP Manager
 experience: 8+ years
-stack:    Asterisk, Kamailio, SIP, Linux
-focus:    High-Scale VoIP Systems, Monitoring, Automation
-systems:  Aheeva, SBC, PRI, SIP Trunks
-scale:    19,000 calls/day
-uptime:   99.9%
-status:   "Designing stable and scalable voice infrastructures"
+stack:      Asterisk, Kamailio, SIP, Linux
+focus:      High-Scale VoIP Systems, Monitoring, Automation
+systems:    Aheeva, SBC, PRI, SIP Trunks
+scale:      50,000+ calls/day
+uptime:     99.9%
+status:     ONLINE
 ```
 
 ---
 
-## Key Achievements
+## 📡 VoIP Signal Flow
+
+```text
+        📞 SIP TRUNK
+             │
+             ▼
+        ┌──────────┐
+        │ Kamailio │  (Load Balancer)
+        └──────────┘
+             │
+             ▼
+        ┌──────────┐
+        │ Asterisk │  (Core PBX)
+        └──────────┘
+             │
+      ┌──────┴──────┐
+      ▼             ▼
+   Queue         IVR System
+      │
+      ▼
+   👨‍💼 Agent
+```
+
+---
+
+## ☎️ SIP Debug Console
+
+```bash
+$ asterisk -rvvvvv
+
+-- Executing [1000@from-trunk:1] Dial("SIP/provider-0000001", "SIP/agent1000")
+-- RTP stream established
+-- SIP/200 OK received
+-- Call connected successfully
+```
+
+---
+
+## 🚀 Key Achievements
 
 * 📉 Reduced VoIP troubleshooting time by **70%** using automated monitoring
 * 📡 Built VoIP infrastructure handling **50,000+ daily calls**
 * ⚙️ Achieved **99.9% uptime** across production systems
 * 💰 Reduced operational costs by **40%** via open-source migration
-* 🚀 Improved incident response time by **45%** باستخدام Telegram alerting
+* 🚀 Improved incident response time by **45%** using Telegram alerting
 
 ---
 
-## Core Projects
+## 🏗️ Core Projects
 
-### VoIP Monitoring Platform (Prometheus + Grafana)
+### 📡 VoIP Monitoring Platform (Prometheus + Grafana)
 
-Production-grade monitoring system for Asterisk & SIP infrastructure
+Production-grade monitoring for Asterisk & SIP infrastructure
 
 * Real-time call metrics & RTP monitoring
 * SIP trunk health tracking
 * Alerting & incident response
-
-👉 https://github.com/IslamEdrees/Asterisk-Monitoring-with-Prometheus-Grafana
+  👉 https://github.com/IslamEdrees/Asterisk-Monitoring-with-Prometheus-Grafana
 
 ---
 
-###  VoIP Alerting System (Telegram Integration)
+### 🔔 VoIP Alerting System (Telegram Integration)
 
 Real-time alerting for VoIP & network components
 
 * SIP failure detection
 * Instant Telegram notifications
-* Integrated with monitoring systems
-
-👉 https://github.com/IslamEdrees/SwitchMonitoring-telegram
+  👉 https://github.com/IslamEdrees/SwitchMonitoring-telegram
 
 ---
 
-### SIP Trunk Monitoring System
+### 📊 SIP Trunk Monitoring System
 
 Track trunk performance, failures, and uptime
 
 * Performance metrics
 * Failure tracking
-* Historical insights
-
-👉 https://github.com/IslamEdrees/Trunk-Monitoring-System
+  👉 https://github.com/IslamEdrees/Trunk-Monitoring-System
 
 ---
 
-###  SIP Guardian (Custom Monitoring Tool)
+### 🧠 SIP Guardian (Custom Monitoring Tool)
 
-Advanced RTP/SIP analysis tool
+Advanced RTP/SIP analysis
 
 * One-way audio detection
 * RTP stream monitoring
@@ -102,45 +119,29 @@ Advanced RTP/SIP analysis tool
 
 ---
 
-## 🛠️ Technical Stack
+## 🛠️ Tech Stack
 
-### VoIP & Telecom
-
+**VoIP & Telecom**
 Asterisk / Kamailio / FreeSWITCH / SIP / RTP / PRI / SBC
 
-### Call Center Systems
-
+**Call Center Systems**
 Aheeva / VICIDial / Auto Dialers / IVR Design
 
-### Systems & DevOps
-
+**Systems & DevOps**
 Linux / Docker / Kubernetes / Ansible / CI/CD
 
-### Monitoring & Observability
-
+**Monitoring & Observability**
 Prometheus / Grafana / Zabbix / Kibana
 
-### Scripting & Automation
-
+**Scripting & Automation**
 Bash / Python / API Integration
 
-### Networking & Security
-
+**Networking & Security**
 QoS / VPN / NAT Traversal / TLS / SRTP / iptables
 
 ---
 
-## 🧠 What I Do
-
-* Design scalable VoIP architectures
-* Troubleshoot complex SIP/RTP issues (one-way audio, latency, failures)
-* Build monitoring & alerting systems
-* Optimize call routing and infrastructure performance
-* Lead VoIP teams and production environments
-
----
-
-##  GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=IslamEdrees&show_icons=true&theme=tokyonight" />
@@ -152,13 +153,12 @@ QoS / VPN / NAT Traversal / TLS / SRTP / iptables
 
 ---
 
-##  Contact
+## 📡 Contact
 
-* 
+* 🌐 https://isonxperiences.com/
 * 💼 https://linkedin.com/in/islam-hassan-edres
 * 📧 [islamedres.hassan@gmail.com](mailto:islamedres.hassan@gmail.com)
-* +201127706450
-* 
+* 📞 +20 112 770 6450
 
 ---
 
@@ -166,6 +166,6 @@ QoS / VPN / NAT Traversal / TLS / SRTP / iptables
 
 * All projects are based on real-world production environments
 * Focus on scalability, stability, and automation
-* Continuously improving VoIP infrastructure and DevOps workflows
+* Continuous improvement of VoIP infrastructure and DevOps workflows
 
 ---
