@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=00FFB3&size=26&center=true&vCenter=true&width=900&lines=VoIP+Systems+Engineer;Asterisk+%7C+Kamailio+%7C+SIP;Handling+50K%2B+Calls%2FDay;Monitoring+%26+High+Availability">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=00FFB3&size=26&center=true&vCenter=true&width=900&lines=VoIP+Systems+Engineer;Asterisk+%7C+Call-Routing+%7C+SIP;MYSQL%2BCalls%2FDay;Monitoring%26Reporting">
 </p>
 
 <p align="center">
-  <b>VoIP Systems Engineer focused on High-Scale Production, SIP Routing & Real-Time Monitoring</b>
+  <b>VoIP</b>
 </p>
 
 ---
@@ -42,11 +42,7 @@
 ##  WHY THIS DESIGN?
 
 - High availability across 3 sites  
-- PRI load distribution (25% / 25% / 50%)  
-- SBC handles NAT & security  
-- Kamailio for SIP routing & failover  
-- Asterisk cluster for media processing  
-
+- PRI load distribution (25% / 25% / 50%)    
 ---
 
 ##  REAL-TIME VOIP MONITORING (Production Proof)
@@ -167,7 +163,7 @@ No Answer → Manager Mobile
 
 <p align="center">
   <img src="https://img.shields.io/badge/Asterisk-VoIP-00FFB3?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Kamailio-LB-3B82F6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Call-Center-system-3B82F6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/SIP-RTP-111827?style=for-the-badge"/>
 </p>
 
